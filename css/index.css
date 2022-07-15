@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+header {
+    position: relative;
+    background-image: url(../css/5c8a8777d3ca930024629752_optimized_1920.jpg);
+    background-size: cover;
+    height: 140vh;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.header__container {
+    position: absolute;
+    background: rgba(30, 41, 51, 0.5);
+    height: 800;
+    padding: 20px 40px 0px 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-logo {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.header__content {
+    margin-top: 100px;
+}
+h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.The {
+    color: #f55d4a;
+    margin-right: 20px;
+}
+
+.content-main > p{
+    font-size: 18px;
+    font-family: Varela, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.header__button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.header__button > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header__card {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 375px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.card > .numbers {
+    color: rgb(245, 93, 74);
+    font-size: 50px;
+}
+
+.card > .places {
+    font-size: 18px;
+}
+
+.article {
+    position: relative;
+    margin-top: 100px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article > p {
+    text-align: center;
+}
+
+.article__content {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.article__content > h2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(41, 45, 58);
+    margin-bottom: 16px;
+}
+
+.article__content > .line {
+    background-color: #f55d4a;
+    width: 60px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.article__content > p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(113, 120, 136);
+    line-height: 30px;
+}
