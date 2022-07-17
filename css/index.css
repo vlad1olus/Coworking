@@ -81,6 +81,12 @@ h1 {
     text-transform: uppercase;
 }
 
+.header__button:hover {
+    background-color:#f55d4a;
+    transition: 0.3s;
+    color: white;
+}
+
 .header__button > a {
     text-decoration: none;
     color: black;
@@ -99,7 +105,7 @@ h1 {
     width: 100%;
     border-radius: 10px;
     padding: 20px 0px 20px 0px;
-    margin: auto;
+    margin: 0px 20px 0px 20px;
     text-align: center;
     font-family: Montserrat, sans-serif;
 }
@@ -114,6 +120,7 @@ h1 {
 }
 
 .article {
+    height: 120vh;
     position: relative;
     margin-top: 100px;
     font-family: Montserrat, sans-serif;
@@ -152,4 +159,26 @@ h1 {
     text-align: center;
     color: rgb(113, 120, 136);
     line-height: 30px;
+}
+
+.article__button{
+    border-color: #556cd5;
+    border-radius: 200px;
+    border: 1px solid;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    color: #556cd5;
+}
+
+.article__button:hover {
+    background-color: #556cd5;
+    transition: 0.3s;
+    color: white;
+}
+
+.article__button > a {
+    text-decoration: none;
 }
